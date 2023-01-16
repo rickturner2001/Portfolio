@@ -36,7 +36,7 @@ const DevStackSection = ({
                 : { translateY: "150%" }
             }
             transition={{ delay: 0.25, duration: 1 }}
-            className="bg-gradient-to-br overflow-hidden h-max relative px-3 text-center from-pink-500 to-orange-400 text-clip text-transparent bg-clip-text mb-8 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl dark:text-white"
+            className="bg-gradient-to-br overflow-hidden h-max relative px-3 text-center from-pink-500 to-orange-400 text-clip text-transparent bg-clip-text mb-8 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl "
           >
             Robust web interfaces
           </motion.h1>
@@ -50,7 +50,7 @@ const DevStackSection = ({
                 : { translateY: "150%" }
             }
             transition={{ delay: 1, duration: 1 }}
-            className="mb-12 text-lg font-normal text-gray-700 max-w-7xl text-center  lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"
+            className="mb-12 text-lg font-normal text-gray-700 max-w-7xl text-center  lg:text-xl sm:px-16 xl:px-48 "
           >
             I use modern technologies like React, TypeScript, tRPC, and Prisma
             to create robust and type-safe web interfaces. These tools allow me
@@ -131,7 +131,7 @@ const DevStackSection = ({
             type="button"
             href="https://github.com/rickturner2001"
             target={"_blank"}
-            className="text-white text-sm md:text-base bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2"
+            className="text-white text-sm md:text-base bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg px-5 py-2.5 text-center inline-flex items-center "
           >
             <svg
               className="w-4 h-4 mr-2 -ml-1"
