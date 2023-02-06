@@ -23,7 +23,7 @@ const HeroText = ({
           ? { position: "absolute", top: "0px", right: "0px" }
           : { position: "absolute", top: "0px", right: "0px" }
       }
-      className=" bg-gray-800 pt-12 h-screen px-6 md:px-0 w-screen flex justify-center flex-col items-center"
+      className=" bg-gray-800 relatuve z-20 pt-12 h-screen px-6 md:px-0 w-screen flex justify-center flex-col items-center"
     >
       <div className="w-full md:max-w-2xl mx-auto overflow-hidden flex flex-col">
         <motion.h1

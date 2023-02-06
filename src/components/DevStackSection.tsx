@@ -14,7 +14,6 @@ const DevStackSection = ({
   currentSection: Section;
   setCurrentSection: Dispatch<SetStateAction<Section>>;
 }) => {
-  console.log(currentSection === Section.DEV_STACK);
   return (
     <>
       <motion.section
@@ -25,7 +24,7 @@ const DevStackSection = ({
             : { translateY: "100%" }
         }
         transition={{ type: "tween" }}
-        className=" relative flex flex-col justify-center items-center overflow-y-hidden bg-white  w-screen min-h-screen"
+        className="flex flex-col p-24 absolute top-0 right-0 z-40 justify-center items-center overflow-y-hidden bg-white w-screen min-h-screen"
       >
         <div className="overflow-hidden">
           <motion.h1

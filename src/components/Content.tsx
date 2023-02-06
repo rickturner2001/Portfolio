@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DevStackSection from "./DevStackSection";
 import HeroText from "./HeroText";
+import ProjectsSection from "./ProjectsSection";
 
 export enum Section {
   HERO = 1,
@@ -10,6 +11,7 @@ export enum Section {
 
 const Content = () => {
   const [currentSection, setCurrentSection] = useState(Section.HERO);
+
   return (
     <>
       <HeroText
@@ -17,6 +19,10 @@ const Content = () => {
         currentSection={currentSection}
       />
       <DevStackSection
+        currentSection={currentSection}
+        setCurrentSection={setCurrentSection}
+      />
+      <ProjectsSection
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
