@@ -10,7 +10,7 @@ export enum Section {
 }
 
 const Content = () => {
-  const [currentSection, setCurrentSection] = useState(Section.HERO);
+  const [currentSection, setCurrentSection] = useState(Section.PROJECTS);
 
   return (
     <>
@@ -18,11 +18,11 @@ const Content = () => {
         setCurrentSection={setCurrentSection}
         currentSection={currentSection}
       />
-      <DevStackSection
+      <ProjectsSection
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
-      <ProjectsSection
+      <DevStackSection
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
